@@ -1,0 +1,155 @@
+urxvt*depth: 32
+urxvt*background: rgba:0000/0043/0054/c800
+!urxvt*transparent: true
+!urxvt*shading: 50
+URxvt.geometry:             90x30
+URxvt.fading:               40
+! URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+URxvt.loginShell:           true
+!URxvt.saveLines:            50
+URxvt.internalBorder:       2
+URxvt.lineSpace:            0
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+URxvt.scrollBar: false
+
+URxvt.font: xft:Monospace-bold:pixelsize=11:antialias=true
+!URxvt.font: xft:bitstream vera sans mono:pixelsize=13:antialias=true
+! URxvt.color12: rgb:ff/5c/00
+URxvt.letterSpace: 0
+
+!URxvt.colorIT:      #87af5f
+!URxvt.colorBD:      #d7d7d7
+!URxvt.colorUL:      #87afd7
+!URxvt.background:      #002b36
+URxvt.foreground:      #18b2ff
+
+!! black dark/light
+*color0: #073642
+*color8: #002b36
+
+!! red dark/light
+*color1: #dc322f
+!*color9: #cb4b16
+
+!! green dark/light
+!*color2: #859900
+!*color10: #586e75
+
+!! yellow dark/light
+*color3: #b58900
+*color11: #657b83
+
+!! blue dark/light
+*color4: #268bd2
+*color12: #839496
+
+!! magenta dark/light
+*color5: #d33682
+*color13: #6c71c4
+
+!! cyan dark/light
+*color6: #2aa198
+*color14: #f731aF
+
+!! white dark/light
+*color7: #eee8d5
+*color15: #fdf6e3
+
+!-- Xft settings -- !
+Xft.dpi:        118
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #cb4b16
+URxvt.cursorUnderline:      false
+
+URxvt.intensityStyles: false
+
+!!*fading: 40
+*fadeColor: #000000
+!*cursorColor: #93a1a1
+!*pointerColorBackground: #586e75
+!*pointerColorForeground: #93a1a1
+
+
+rofi.color-window: argb:DD000000, #000000, argb:80ffffff
+rofi.color-normal: argb:3341cd38, argb:99ff6700, argb:3341cd38, argb:c041cd38, #fffff1
+rofi.color-urgent: argb:DD000000, argb:99ff6700, argb:DD000000, argb:8041cd38, #fffff1
+rofi.color-active: argb:DD000000, argb:99ff6700, argb:DD000000, argb:8041cd38, #fffff1
+rofi.width: 100
+rofi.lines: 4
+rofi.font:SFNS Display 15 
+rofi.padding:400 
+rofi.eh: 2
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+
+
+!SOLARIZED
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+*background:            S_base03
+*foreground:            S_base0
+*fadeColor:             S_base03
+*cursorColor:           S_base1
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+!! black dark/light
+*color0:                S_base02
+*color8:                S_base03
+
+!! red dark/light
+*color1:                S_red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
+
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3
