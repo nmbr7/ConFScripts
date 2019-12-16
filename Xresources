@@ -9,6 +9,7 @@ URxvt.fading:               40
 URxvt.loginShell:           true
 !URxvt.saveLines:            50
 URxvt.internalBorder:       2
+st.internalBorder:       2
 URxvt.lineSpace:            0
 
 ! do not scroll with output
@@ -19,6 +20,7 @@ URxvt*scrollWithBuffer: true
 URxvt*scrollTtyKeypress: true
 URxvt.scrollBar: false
 
+st.font: Monospace-11:pixelsize=10:antialias=true
 URxvt.font: xft:Monospace-bold:pixelsize=11:antialias=true
 !URxvt.font: xft:bitstream vera sans mono:pixelsize=13:antialias=true
 ! URxvt.color12: rgb:ff/5c/00
@@ -29,6 +31,7 @@ URxvt.letterSpace: 0
 !URxvt.colorUL:      #87afd7
 !URxvt.background:      #002b36
 URxvt.foreground:      #18b2ff
+st.foreground:      #18b2ff
 
 !! black dark/light
 *color0: #073642
@@ -153,3 +156,11 @@ rofi.hide-scrollbar: true
 !! white dark/light
 *color7:                S_base2
 *color15:               S_base3
+
+!! Transparency (0-1):
+st.alpha: 0.95
+
+!! Set a default font and font size as below:
+st.termname: st-256color
+st.borderpx: 2
+*.background: #282828
