@@ -11,5 +11,5 @@
 <br>
 
 <br>
-<h4 align="right">Nothing sensitive obviously :grin:</h4>
+<h4 align="right">Always check the scripts before running :grin:</h4>
 
