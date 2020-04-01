@@ -21,6 +21,8 @@ set hlsearch
 set showmatch
 set relativenumber
 set nomodeline
+set cc=80
+
 
 map <C-n> :Vexplore<cr>
 map <C-t><up> :tabr<cr>

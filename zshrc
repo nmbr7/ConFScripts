@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:/usr/bin"
+export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 export PATH="$PATH:$HOME/.gem/ruby/2.6.0/bin"
 
@@ -107,9 +108,13 @@ alias ls='ls --color=auto'
 alias sl='ls'
 alias c='clear'
 alias nc='ncat'
+alias cdc='cd $HOME/Desktop/CTF'
+alias cdr='cd $HOME/Desktop/RESEARCH'
 alias vim='vim -p'
+alias grep='rg'
 
 alias ltoc='for i in $(ls);do a=`echo $i| tr "[:lower:]" "[:upper:]" `;mv $i $a ;done'
 alias ctol='for i in $(ls);do a=`echo $i| tr "[:upper:]" "[:lower:]" `;mv $i $a ;done'
 
+alias cdp='cd $HOME/Desktop/PROJECTS'
 alias gitacp='f(){ git status;git add ./*; git commit -m "$1"; git push; unset -f f; }; f'
