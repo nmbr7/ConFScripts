@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mv $HOME/Pictures/wallpapper/* $HOME/Pictures/
+cp $1 $HOME/Pictures/wallpapper/
+xdotool key 'alt+shift+r'

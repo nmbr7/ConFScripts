@@ -20,11 +20,18 @@ URxvt*scrollWithBuffer: true
 URxvt*scrollTtyKeypress: true
 URxvt.scrollBar: false
 
-st.font: Monospace-11:pixelsize=10:antialias=true
+st.font: Monospace-11:pixelsize=11:antialias=true
 URxvt.font: xft:Monospace-bold:pixelsize=11:antialias=true
 !URxvt.font: xft:bitstream vera sans mono:pixelsize=13:antialias=true
 ! URxvt.color12: rgb:ff/5c/00
 URxvt.letterSpace: 0
+
+
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: google-chrome-stable
+URxvt.matcher.rend.0: Uline Bold fg7
+URxvt.matcher.button: 1
+
 
 !URxvt.colorIT:      #87af5f
 !URxvt.colorBD:      #d7d7d7
